@@ -2,13 +2,13 @@
 This repository contains a complete MLOps pipeline for classifying the Iris dataset using Scikit-Learn and MLflow. The project demonstrates experiment tracking, model versioning, and automated payload validation.
 
 ## Project Features
-# Experiment Tracking: Logs hyper-parameters and metrics (Accuracy, F1, Precision) for multiple models.
+Experiment Tracking: Logs hyper-parameters and metrics (Accuracy, F1, Precision) for multiple models.
 
-# Artifact Logging: Automatically generates and saves Confusion Matrices and Performance Comparison plots.
+Artifact Logging: Automatically generates and saves Confusion Matrices and Performance Comparison plots.
 
-# Model Registry: Registers the best-performing model to the MLflow Model Registry for version control.
+Model Registry: Registers the best-performing model to the MLflow Model Registry for version control.
 
-# Payload Validation: Includes a robust pre-inference check to ensure data integrity (shape and null-value checks).
+Payload Validation: Includes a robust pre-inference check to ensure data integrity (shape and null-value checks).
 
 ## Tech Stack
 
@@ -20,7 +20,7 @@ Visualization: Matplotlib, Seaborn
  
 ## How to Run
 
-# **Clone the repository:**
+# Clone the repository:
    bash
    git clone [https://github.com/AbeeraImran/Iris-Classification-with-MLflow-Tracking.git](https://github.com/AbeeraImran/Iris-Classification-with-MLflow-Tracking.git)
    cd mlflow_task
